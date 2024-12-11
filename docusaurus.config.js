@@ -14,6 +14,7 @@ const config = {
 
   organizationName: 'OpenCyberXyz',
   projectName: 'protocol-docs',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
