@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -57,26 +57,22 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://x.com/opencyberxyz',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/OpenCyberXyz',
-              },
-            ],
+            href: 'https://opencyber.xyz/',
+            label: 'App',
+            position: 'left',
           },
+          {
+            href: 'https://cyberchain.xyz/',
+            label: 'CyberChain',
+            position: 'left',
+          },
+          {
+            href: 'https://x.com/opencyberxyz',
+            label: 'Twitter',
+            position: 'right',
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OpenCyber. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
